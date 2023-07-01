@@ -175,6 +175,41 @@ html {
   scroll-behavior: smooth;
 }
 
+.success-message {
+  display: none;
+  background-color: #c8e6c9;
+  color: #388e3c;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  animation: fade-in 3s forwards;
+  animation: fade-out 4s forwards;
+  opacity: 0;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 0; /* Transition to opacity 1 */
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Transition to opacity 1 */
+  }
+}
+
+.success-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
 body {
   background-color: var(--eerie-black-1);
   color: var(--white);
