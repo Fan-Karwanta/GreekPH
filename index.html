@@ -761,30 +761,22 @@
         - #RESERVATION
       -->
 
-      <section class="reservation" id="order">
+     <section class="reservation" id="order">
         <div class="container">
-
           <div class="form reservation-form bg-black-10">
-
-            <form action="" class="form-left">
-
+            <form action="#" method="POST" class="form-left" id="reservationForm">
               <h2 class="headline-1 text-center">God Reservation Form</h2>
-
               <p class="form-text text-center">
-                Reserve a Scent <a href="tel:+639197172719" class="link">0919-717-2719</a>
-                or fill out the form.
+                Reserve a Scent <a href="tel:+639197172719" class="link">0919-717-2719</a> or fill out the form.
               </p>
-            
               <div class="input-wrapper">
                 <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
-            
                 <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
               </div>
-            
               <div class="form-group">
                 <div class="input-wrapper">
                   <select id="scent" name="scent" autocomplete="off" class="input-field">
-                    <option disabled selected> Select a Scent:</option>
+                    <option disabled selected>Select a Scent:</option>
                     <optgroup label="|- Gods -|">
                       <option value="Zeus">Zeus</option>
                       <option value="Hades">Hades</option>
@@ -810,18 +802,26 @@
                 </div>
                 <input type="text" name="email" placeholder="Email" autocomplete="off" class="input-field">
               </div>
-              
-              
-              
-            
               <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
-            
-              <button type="submit" class="btn btn-secondary">
+              <button type="submit" class="btn btn-secondary" id="orderButton">
                 <span class="text text-1">Order Now</span>
                 <span class="text text-2" aria-hidden="true">Click to Send</span>
               </button>
-
+              <div id="successMessage" class="success-message fade-in fade-out">
+                <span class="success-icon">&#10004;</span> Order Sent
+              </div>
             </form>
+          </div>
+        </div>
+      </section>
+      
+      <script>
+        document.getElementById('reservationForm').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form submission
+          var successMessage = document.getElementById('successMessage');
+          successMessage.style.display = 'block';
+        });
+      </script>
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
 
