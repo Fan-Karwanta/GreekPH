@@ -1,5 +1,6 @@
 # GreekPH
-Website for Greek Perfumes PH
+Website for Greek Perfumes PH ( A Scaling Perfume Shop )
+[Inspired by the Greek Gods]
 
 Developed using HTML, CSS, JavaScript
 
