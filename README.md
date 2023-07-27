@@ -5,7 +5,7 @@ Website for Greek Perfumes PH ( A Scaling Perfume Shop )
 
 Developed using HTML, CSS, JavaScript
 
-Hosted in: greek-ph.vercel.app
+Hosted in: https://greek-ph.vercel.app
 
 By Fan Karwanta 
 
