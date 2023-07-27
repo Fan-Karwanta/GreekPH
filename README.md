@@ -1,4 +1,4 @@
-# GreekPH
+# Greek Perfumes PH
 Website for Greek Perfumes PH ( A Scaling Perfume Shop )
 
 [Inspired by the Greek Gods and Goddesses]
