@@ -12,4 +12,4 @@ By Fan Karwanta
 You can See it on projects section of this website:
 Personal Website: https://fankarwanta.com
 
-All rights Reserved.
+2023 All rights Reserved.
