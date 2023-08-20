@@ -1,4 +1,5 @@
 # Greek Perfumes PH
+### By Fan Karwanta
 Website for Greek Perfumes PH ( A Scaling Perfume Shop )
 
 [Inspired by the Greek Gods and Goddesses]
@@ -8,7 +9,7 @@ You can clone this repo, just credit the owner.
 
 Hosted in: https://greek-ph.vercel.app
 
-By Fan Karwanta 
+
 You can See it on projects section of this website:
 Personal Website: https://fankarwanta.com
 
