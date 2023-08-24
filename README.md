@@ -9,8 +9,6 @@ You can clone this repo, just credit the owner.
 
 Hosted in: https://greek-ph.vercel.app
 
-You can See it on projects section of this website:
-
-Personal Website: https://fankarwanta.com
+You can See it on projects section of this website: https://fankarwanta.com
 
 2023 All rights Reserved.
